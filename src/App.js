@@ -1,8 +1,9 @@
 import './App.css';
 
 function App() {
-  return (
+  return (<>
     <h1> Hello Ewa !  :D</h1>
+    </>
   );
 }
 
