@@ -1,45 +1,36 @@
-import './App.css';
+//import './App.css'; // there is no longer styles
+import React from 'react';
+import Home from './components/pages/home/home';
+import Contact from './components/pages/contact/contact';
+import ActivityOutdoor from './components/pages/outdoor/outdoor';
+
+import {Route, 
+  BrowserRouter,
+  HashRouter,
+  Link,
+  Switch,
+  NavLink} from 'react-router-dom';
+
+
 
 function App() {
-  return (<>
-    
+ 
 
-    <div>
-      <header>
-        <nav>
-          <ul>
-            <li>HOME</li>
-            <li>CONTACT</li>
-            <li>LOG IN</li>
-            <li>REGOISTER</li>
-          </ul>
-        </nav>
-      </header>
+  return (<BrowserRouter>
+      <>
+        <Route exact path='/' component={Home}/>
+        <Route path='/outdoor-activity/' component={ActivityOutdoor}/>
       
+        <Route path='/contact/' component={Contact}/>
 
-    <main>
-      <h1>LEISURE TIME WITH CHILD(REN)</h1>
-      <p>Don't waste your time for searching, just use the app and spend it properly!</p>
-
-      <section>
-        <div>outdoor activities</div>
-      </section>
-      
-      <section>
-        <div>indoor activities</div>
-      </section>
-    </main>
-      
-
-    <footer>
-       <div>Follow us</div>
-       <p>All right reserved</p>
-    </footer>
-      
-
-    </div>
-    </>
+      </>
+    </BrowserRouter>   
   );
 }
 
 export default App;
+
+
+
+ 
+  
