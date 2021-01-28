@@ -1,13 +1,17 @@
 import React from 'react';
-import Header from '../../organism/menu';
+import Menu from '../../organism/menu';
 import Main from '../../organism/main';
 import Footer from '../../organism/footer';
+import PageStyle from '../styled/pageStyle';
 
-const Menu = () => {
-    return (<>
-        <div>
+
+
+const Home = () => {
+    return (
+    <>
+        <PageStyle>
             <header>
-             <Header/>
+             <Menu/>
             </header>
             
             <main>
@@ -17,8 +21,9 @@ const Menu = () => {
             <footer>
              <Footer/>  
             </footer> 
-         </div></>
+        </PageStyle>
+    </>
     );
 };
 
-export default Menu;
+export default Home;

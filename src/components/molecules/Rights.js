@@ -1,10 +1,12 @@
 import React from 'react';
+import RightsStyle from './styled/Rights';
 
 const Rights = (props) => {
-    
+
+  
     return (
         <>
-            <p>All rights reserved {props.year}</p>
+            <RightsStyle>All rights reserved {props.year}</RightsStyle>
         </>
     );
 };

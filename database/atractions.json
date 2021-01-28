@@ -1,0 +1,34 @@
+{
+  "attractions": [
+    {
+      "id": 1,
+      "city": "wrocław",
+      "age": "3-6",
+      "cost": "0",
+      "atraction": "park"
+      
+    },
+    {
+      "id": 2,
+      "city": "wrocław",
+      "age": "3-6",
+      "cost": "0-19",
+      "atraction": "cinema"
+       
+    },
+    {
+      "id": 3,
+      "city": "wrocław",
+      "age": "",
+      "cost": "20-49",
+      "atraction": "go-jump"
+    },
+    {
+      "id": 4,
+      "city": "wrocław",
+      "age": "3-6",
+      "cost": "50",
+      "atraction": "zoo"
+    }
+  ]
+}

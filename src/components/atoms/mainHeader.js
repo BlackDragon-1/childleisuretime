@@ -1,9 +1,14 @@
 import React from 'react';
+import MainHeaderStyle from './styled/mainHeader';
+
 
 const MainHeader = () => {
     return (
-
-        <h1>LEISURE TIME WITH CHILD(REN)</h1>
+        <>
+            
+             <MainHeaderStyle>LEISURE TIME WITH CHILD(REN)</MainHeaderStyle>
+            
+        </>
     );
 };
 

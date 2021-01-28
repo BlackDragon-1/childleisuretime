@@ -1,9 +1,10 @@
 import React from 'react';
+import SocialMediaStyle from './styled/Socialmedia';
 
 const Socialmedia = () => {
     return (
        <>
-        <div>Follow us on the socialmedia</div>
+        <SocialMediaStyle>Follow us on the socialmedia</SocialMediaStyle>
        </>
     );
 };
