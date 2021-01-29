@@ -2,33 +2,94 @@
   "attractions": [
     {
       "id": 1,
-      "city": "wrocław",
+      "city": "Wrocław",
       "age": "3-6",
       "cost": "0",
-      "atraction": "park"
+      "holidays": "Park we Wrocławiu"
       
     },
     {
       "id": 2,
-      "city": "wrocław",
+      "city": "Wrocław",
       "age": "3-6",
       "cost": "0-19",
-      "atraction": "cinema"
+      "holidays": "kino we Wrocławiu"
        
     },
     {
       "id": 3,
-      "city": "wrocław",
-      "age": "",
+      "city": "Wrocław",
+      "age": "3-6",
       "cost": "20-49",
-      "atraction": "go-jump"
+      "holidays": "Go-jump we Wrocławiu"
     },
     {
       "id": 4,
-      "city": "wrocław",
+      "city": "Wrocław",
       "age": "3-6",
       "cost": "50",
-      "atraction": "zoo"
+      "holidays": "Zoo we Wrocławiu"
+    },
+    {
+      "id": 5,
+      "city": "Poznań",
+      "age": "3-6",
+      "cost": "0",
+      "holidays": "Park w Poznaniu"
+      
+    },
+    {
+      "id": 6,
+      "city": "Poznań",
+      "age": "3-6",
+      "cost": "0-19",
+      "holidays": "kino w Poznaniu"
+       
+    },
+    {
+      "id": 7,
+      "city": "Poznań",
+      "age": "3-6",
+      "cost": "20-49",
+      "holidays": "Go-jump w Poznaniu"
+    },
+    {
+      "id": 8,
+      "city": "Poznań",
+      "age": "3-6",
+      "cost": "50",
+      "holidays": "Zoo w Poznaniu"
+    },
+    {
+      "id": 9,
+      "city": "Kraków",
+      "age": "3-6",
+      "cost": "0",
+      "holidays": "Park w Krakowie"
+      
+    },
+    {
+      "id": 10,
+      "city": "Kraków",
+      "age": "3-6",
+      "cost": "0-19",
+      "holidays": "kino w Krakowie"
+       
+    },
+    {
+      "id": 11,
+      "city": "Kraków",
+      "age": "3-6",
+      "cost": "20-49",
+      "holidays": "Go-jump w Krakowie"
+    },
+    {
+      "id": 12,
+      "city": "Kraków",
+      "age": "3-6",
+      "cost": "50",
+      "holidays": "Zoo w Krakowie"
     }
+     
   ]
 }
