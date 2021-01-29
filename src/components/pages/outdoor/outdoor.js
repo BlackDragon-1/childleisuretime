@@ -81,29 +81,60 @@ class ActivityOutdoor extends Component {
     
 
     state={
+        atr: "",
         text:"strona",
         error:''
     }
+
+    // handleAtr=(e)=>{ 
+
+    //     const random = e.target.value;
+
+    //     fetch(`http://localhost:3004/atractive/`
+    //         .then(res=>{
+    //             if(res.ok){
+    //                 return res;
+    //             }throw Error(res.status)
+    //         })
+
+    //         .then(res => res.json())
+
+    //         .then(objektJSON => this.setState({
+    //             atr: objektJSON.atraction
+    //         }))
+
+    //         .catch(err => console.log(err))    
+        
+    // }
+
     handleDateChange=(e)=>{ 
         e.preventDefault();
         const random = e.target.value;
         
         fetch(`http://numbersapi.com/${random}/year?json`)
-            .then(res=>{
+            .then(res=>
+                
+                {
                 if(res.ok){
                     return res;
                 }throw Error(res.status)
-            })
+            }
+            )
 
             .then(res => res.json())
 
-            .then(objektJSON => this.setState({
-                text: objektJSON.text
-            }))
+            .then(objektJSON => console.log(objektJSON.text)
+                
+            //     this.setState({
+            //     text: objektJSON.text
+            // })
+            
+            )
 
             .catch(err => console.log(err));        
         
     }
+    
 
     render(){
     return (
