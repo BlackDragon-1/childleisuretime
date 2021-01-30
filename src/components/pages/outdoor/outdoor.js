@@ -10,7 +10,7 @@ const ActivityOutdoor = () => {
 
         const [places, setPlaces] = useState([]);
 
-        const [city, setCity] = useState("");
+        const [city, setCity] = useState("Wrocław");
       
         useEffect(() => {
       
