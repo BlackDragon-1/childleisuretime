@@ -35,7 +35,7 @@
       "city": "Poznań",
       "age": "3-6",
       "cost": "0",
-      "holidays": "Park w Poznaniu"
+      "holidays": "Pojechać do Buczka"
       
     },
     {
@@ -43,7 +43,7 @@
       "city": "Poznań",
       "age": "3-6",
       "cost": "0-19",
-      "holidays": "kino w Poznaniu"
+      "holidays": "Zobaczyć Koziołki"
        
     },
     {
@@ -51,7 +51,7 @@
       "city": "Poznań",
       "age": "3-6",
       "cost": "20-49",
-      "holidays": "Go-jump w Poznaniu"
+      "holidays": "Jechać na Maltę"
     },
     {
       "id": 8,

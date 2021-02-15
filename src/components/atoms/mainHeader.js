@@ -7,7 +7,7 @@ const MainHeader = () => {
         <>
             
              <MainHeaderStyle>LEISURE TIME WITH CHILD(REN)</MainHeaderStyle>
-            
+
         </>
     );
 };

@@ -40,7 +40,7 @@ const ActivityOutdoor = () => {
                 {places.filter(el=>el.city===`${city}`).map((el) => {
                         return (<>   
                             <li key={el.id}>
-                                <h3>{el.holidays}<span> przeznaczony dla dzieci w wieku</span>{el.age}</h3>
+                                <h3>{el.holidays}<span>. Miejsce przeznaczone dla dzieci w wieku</span>{el.age}</h3>
                             </li>
                         </>
                         );
